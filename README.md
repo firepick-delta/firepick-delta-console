@@ -32,10 +32,10 @@ The install.sh script was written for a debian-based system, specifically the Ra
 * run the bash installer script install.sh.
 
 ##Manual Instillation
-* Install the following dependancies manually:
-		--* Python 2.7
-		--* Python Setup Tools
-		--* rpi.gpio python package
+1. Install the following dependancies manually:
+		* Python 2.7
+		* Python Setup Tools
+		* rpi.gpio python package
 
-* Optional Dependancies:
-		--* Pip for Python 2.7 (for installing the rpi.gpio package)
+2. Optional Dependancies:
+		* Pip for Python 2.7 (for installing the rpi.gpio package)
