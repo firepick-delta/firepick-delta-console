@@ -15,6 +15,8 @@ pip install rpi.gpio
 
 mkdir -v /opt/firepick-delta-console
 cp -v ./Adafruit_CharLCD.py /opt/firepick-delta-console/
+cp -v ./LCD_SystemInfo.py /opt/firepick-delta-console/
 cp -v ./lcd /etc/init.d/
 chmod -v +x /opt/firepick-delta-console/Adafruit_CharLCD.py
+chmod -v +x /opt/firepick-delta-console/LCD_SystemInfo.py
 update-rc.d lcd defaults

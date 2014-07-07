@@ -17,7 +17,7 @@ export HOME
 case "$1" in
     start)
         echo "Starting LCD"
-        /home/pi/Adafruit-Raspberry-Pi-Python-Code/Adafruit_CharLCD/Adafruit_CharLCD_IPclock_example.py  2>&1 &
+        /opt/firepick-delta-console/LCD_SystemInfo.py  2>&1 &
     ;;
     stop)
         echo "Stopping LCD"
