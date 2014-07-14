@@ -55,7 +55,7 @@ class Adafruit_CharLCD:
 
 
 
-    def __init__(self, pin_rs=25, pin_e=24, pins_db=[23, 17, 21, 22]):
+    def __init__(self, pin_rs=25, pin_e=24, pins_db=[23, 17, 27, 22]):
 
         self.pin_rs = pin_rs
         self.pin_e = pin_e
